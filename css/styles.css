@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('../fonts/Arimo.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #225555;
+  font-family: 'Arimo';
+  transition: background-color 0.5s ease-in-out;
+}
+a.brand {
+	color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+a.brand:hover {
+  color: #ccc;
+}
+a.brand:focus {
+  outline: none;
+}
+
+#container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 300px;
+}
+
+#container input {
+	margin: 1em 0;
+	padding: 0.3em 0;
+	color: #fff;
+	font-size: 1.3em;
+	border: none;
+	outline: none;
+	border-bottom: 1.5px solid #fff;
+	background: transparent;
+	transition: all 0.3s ease;
+}
+
+#container input:focus {
+	border-bottom: 1.5px solid #212121; 
+}
+
+::-webkit-input-placeholder {
+  color: #ddd;
+}
+:-moz-placeholder {
+  color: #ddd;
+}
+::-moz-placeholder {
+  color: #ddd;
+}
+:-ms-input-placeholder {
+  color: #ddd;
+}
+
+.footer {
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+}
+
+.footer p {
+	color: white;
+	font-size: 18px;
+}
+
+.footer p span {
+	color: red;
+}
+
+.footer a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+/* Light */
+.light a.brand {
+  color: #212121;
+}
+
+.light a.brand:hover {
+  color: #343434;
+}
+
+.light #container input {
+  color: #212121;
+  border-bottom: 1.5px solid #ccc;
+}
+
+.light #container input:focus {
+  border-bottom: 1.5px solid #212121; 
+}
+
+.light ::-webkit-input-placeholder {
+  color: #ddd;
+}
+.light :-moz-placeholder {
+  color: #ddd;
+}
+.light ::-moz-placeholder {
+  color: #ddd;
+}
+.light :-ms-input-placeholder {
+  color: #ddd;
+}
+
+.light .footer p {
+  color: #212121;
+  font-size: 18px;
+}
+
+.light .footer p span {
+  color: red;
+}
+
+.light .footer a {
+  color: #343434;
+  text-decoration: none;
+}
+
+/* Dark */
+
+.dark a.brand {
+  color: #fff;
+}
+
+.dark a.brand:hover {
+  color: #C8C8C8;
+}
+
+.dark #container input {
+  color: #fff;
+}
+
+.dark #container input:focus {
+  border-bottom: 1.5px solid #fff; 
+}
+
+.dark ::-webkit-input-placeholder {
+  color: #fff;
+}
+.dark :-moz-placeholder {
+  color: #fff;
+}
+.dark ::-moz-placeholder {
+  color: #fff;
+}
+.dark :-ms-input-placeholder {
+  color: #fff;
+}
+
+.dark .footer p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.dark .footer p span {
+  color: red;
+}
+
+.dark .footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  animation-name: bounceInUp;
+}
+
+.btn {
+  border: none;
+  display: block;
+  padding: 10px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 20em;
+  right: 10px;
+  position: absolute;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 14px;
+  outline: 0;
+  color: #FFF;
+  background-color: #0078B4;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.ad2hs-prompt {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  padding: 7% 0;
+  min-height: 25%;
+  position: fixed;
+  bottom: 0;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-grow: 1;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.ad2hs-prompt span {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 1.5em;
+  top: 5px;
+  cursor: pointer;
+}
+.ad2hs-content {
+  display: flex;
+  padding-left: 1.4em;
+}
+.ad2hs-content h2 {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.ad2hs-prompt .btn {
+  align-self: flex-end;
+}

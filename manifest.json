@@ -1,0 +1,44 @@
+{
+	"name": "Color Converter - Hex2Rgb Conversion",
+	"short_name": "Hex2Rgb",
+	"start_url": "/",
+	"scope": ".",
+	"display": "standalone",
+	"background_color": "#225555",
+	"theme_color": "#225555",
+	"description": "Convert color from hex to rgb and vice-versa even when you are offline!",
+	"lang": "en-US",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/icon/app-icon-48x48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "/icon/app-icon-96x96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "/icon/app-icon-128x128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "/icon/app-icon-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icon/app-icon-256x256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "/icon/app-icon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
