@@ -1,7 +1,7 @@
 # Hex2Rgb - Color Converter
 Hex2Rgb is a colour converter from hex to rgb and vice-versa. Its a Progressive Web App
 
-Check the demo - https://hex2rgb.akashrajpurohit.cf
+Check the demo - https://hex2rgb.netlify.com/
 
 ## Things I learnt while developing this project
 1. Color conversion formulas from hex to rgb and vice-versa
@@ -12,4 +12,4 @@ Check the demo - https://hex2rgb.akashrajpurohit.cf
 6. Adding "Add to Home Screen" Option to allow installing as PWA
 
 ## Visit my portfolio -
-[Akash Rajpurohit](https://akashrajpurohit.cf/)
+[Akash Rajpurohit](https://akashwho.codes/)
